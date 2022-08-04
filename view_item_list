@@ -1,0 +1,58 @@
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'view_item_list',  			// name of the event. In this case, it always must be view_item_list
+  ecommerce: {							
+    items: [{							// an array where all currently viewed products must be included
+      item_name: 'TRU RED™ 1-Subject Notebook, 8" x 10.5", Wide Ruled, 70 Sheets', 			// insert an actual product name
+      item_id: 'TR54893',				// insert an actual product ID
+      price: '0.69',					// insert an actual product price. Number or a string. Don't include currency code
+      item_brand: 'TRU RED™',			// insert an actual product price
+      item_category: 'Paper',			// insert an actual product top-level category
+	    item_category2: 'Notebooks',		// if it is possible to drill down the categories (e.g. Apparel, then T-shirt, then Men), use item_category2, item_category3, etc. Can use from item_category up to item_category5
+      item_category3: 'Single and Multi Subject Notebooks'    // further drill down on categories
+      item_variant: 'Multicolor',				// insert an actual product variant
+      item_list_name: 'category', // insert the name of the list where the product is currently displayed
+      item_list_id: 'products_category',	// insert the list id where the product is currently displayed
+      index: 1,							// insert product's position in that list
+      quantity: '1'						// product quantity. In case of view_item_list, it will usually be equal to 1
+    },{
+      item_name: 'TRU RED™ 1-Subject Notebook, 8" x 10.5", Wide Ruled, 70 Sheets',
+      item_id: 'TR24003',
+      price: '0.69',
+      item_brand: 'TRU RED™',
+      item_category: 'Paper',
+      item_category2: 'Notebooks'
+      item_category3: 'Single and Multi Subject Notebooks'
+      item_variant: 'Blue',
+      item_list_name: 'category',
+      item_list_id: 'products_category',
+      index: 2,
+      quantity: '1'
+    },{
+      item_name: 'TRU RED™ 1-Subject Notebook, 5.875" x 9", College Ruled, 100 Sheets',
+      item_id: 'TR52120',
+      price: '5.99',
+      item_brand: 'TRU RED™',
+      item_category: 'Paper',
+      item_category2: 'Notebooks'
+      item_category3: 'Single and Multi Subject Notebooks'
+      item_variant: 'Brown',
+      item_list_name: 'category',
+      item_list_id: 'products_category',
+      index: 3,
+      quantity: '1'
+    },{
+      item_name: 'Mead Five Star 1-Subject Notebook, 8.5" x 11", College Ruled, 100 Sheets',
+      item_id: '06206',
+      price: '3.49',
+      item_brand: 'Five Star',
+      item_category: 'Paper',
+      item_category2: 'Notebooks'
+      item_category3: 'Single and Multi Subject Notebooks'
+      item_variant: 'Multicolor',
+      item_list_name: 'category',
+      item_list_id: 'products_category',
+      index: 4,
+      quantity: '1'
+  }]
+});
