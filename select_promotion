@@ -1,0 +1,13 @@
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'select_promotion',
+  ecommerce: {
+    items: [{
+      promotion_id: '63652',					// promotion ID
+      promotion_name: 'ink_toner_b2s',		// name of the promo campaign
+      creative_name: '20_percent_back_rewards',		// main message of the banner
+      creative_slot: 'hp_hero_slot1',			// slot of the banner (there are multiple items in the same location, e.g. slider)
+      location_id: 'homepage'				// location of the banner
+    }]
+  }
+});
