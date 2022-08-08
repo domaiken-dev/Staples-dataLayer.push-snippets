@@ -9,9 +9,9 @@ window.dataLayer.push({
       price: '0.35',					// insert an actual product price. Number or a string. Don't include currency code
       item_brand: 'TRU RED™',			// insert an actual product price
       item_category: 'Paper',			// insert an actual product top-level category
-	  item_category2: 'Notebooks',		// if it is possible to drill down the categories (e.g. Apparel, then T-shirt, then Men), use item_category2, item_category3, etc. Can use from item_category up to item_category5
-    item_category3: 'Single and Multi Subject Notebooks',
-    item_variant: 'Blue',				// insert an actual product variant
+      item_category2: 'Notebooks',		// if it is possible to drill down the categories (e.g. Apparel, then T-shirt, then Men), use item_category2, item_category3, etc. Can use from item_category up to item_category5
+      item_category3: 'Single and Multi Subject Notebooks',
+      item_variant: 'Blue',				// insert an actual product variant
       quantity: '1'						// product quantity during the checkout
     }
     }]
